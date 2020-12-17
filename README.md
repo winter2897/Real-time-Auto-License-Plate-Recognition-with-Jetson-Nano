@@ -35,10 +35,12 @@ First, you need to prepare a labeled dataset. Then train the object detection mo
 
 To get started with this project you need to install your jetson nano with the libraries and source code as follows:
 
-* [Setting up your Jetson]()
+* [Setting up your Jetson](./doc/jetson-setup.md)
 
 ## Vienamese Plate Dataset
 The project shares two sets of data for the license plate identification problem in Vietnam:
+
+* [Vienamese Plate Dataset](./doc/dataset.md)
 
 * [License PLate Detection Dataset](https://drive.google.com/file/d/1u4RA1z0T4BvZVZhSo0qyzdrUlEn7ZRC4/view?usp=sharing "plate dataset")
 
@@ -54,7 +56,7 @@ License PLate Detection results with `40 FPS` on Jetson Nano:
 
 License Plate Detection tutorial:
 
-* [License Plate Detection]()
+* [License Plate Detection](./doc/plate-detect.md)
 
 ## License Plate Recognition
 
@@ -66,7 +68,7 @@ License Plate Recognition results with `40 FPS` on Jetson Nano:
 
 License Plate Recognition tutorial:
 
-* [License Plate Detection]()
+* [License Plate Recognition](./doc/plate-ocr.md)
 
 ## Trained Models
 

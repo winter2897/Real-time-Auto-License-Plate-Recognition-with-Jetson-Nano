@@ -1,4 +1,4 @@
-<img src="./doc/images/githubtitle.png" width="100%">
+<img src="./images/githubtitle.png" width="100%">
 
 # License Plate Recognition
 
@@ -7,7 +7,7 @@
 License PLate Recognition is a source code that detects license plates in pictures or videos. This project was developed to work in real time on **`Jetson Nano`** with **`39 FPS`**. It can detect all kinds of number plates of vehicles in Vietnam.
 
 <div align='center'>
-  <img src="./doc/images/ocr_result.gif" width="60%">
+  <img src="./images/ocr_result.gif" width="60%">
 </div>
 
 License PLate Detection is a guide for training a custom model for your own license plate dataset and more.

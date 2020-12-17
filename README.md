@@ -1,26 +1,24 @@
 <img src="./doc/images/githubtitle.png" width="100%">
 
 # Real-time Auto License Plate Recognition with Jetson Nano
-This project provides you with a detailed guide on how to build a real-time license plate detection and recognition system. The source code of the project implemented on Jetson Nano reached 40 FPS.
+This repository provides you with a detailed guide on how to build a real-time license plate detection and recognition system. The source code of the repository implemented on Jetson Nano reached 40 FPS.
 
 <div align='center'>
   <img src="./doc/images/ocr_result.gif" width="60%">
 </div>
 
-The license plate data set for this project was collected in Vietnam. You can train your model to detect and recognize number plates by following the instructions below.
+The license plate data set for this repository was collected in Vietnam. You can train your model to detect and recognize number plates by following the instructions below.
 
 ### Table of Contents
 
 - [Real-time Auto License Plate Recognition with Jetson Nano](#real-time-auto-license-plate-recognition-with-jetson-nano)
     - [Table of Contents](#table-of-contents)
   - [Pipeline](#pipeline)
-  - [Setting up your Jetson](#setting-up-your-jetson)
-  - [Vienamese Plate Dataset](#vienamese-plate-dataset)
-  - [License PLate Detection](#license-plate-detection)
-  - [License Plate Recognition](#license-plate-recognition)
-  - [Real-time Vietnamese ALPR](#real-time-vietnamese-alpr)
+  - [Setting up your Jetson](./doc/jetson-setup.md)
+  - [Vienamese Plate Dataset](./doc/dataset.md)
+  - [License PLate Detection](./doc/plate-detect.md)
+  - [License Plate Recognition](./doc/plate-ocr.md)
   - [Trained Models](#trained-models)
-  - [Appendix](#appendix)
   - [Reference](#reference)
 
 ## Pipeline

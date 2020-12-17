@@ -1,4 +1,4 @@
-<img src="./doc/images/githubtitle.png" width="100%">
+<img src="./images/githubtitle.png" width="100%">
 
 # Vienamese Plate Dataset
 ## Introduction
@@ -10,7 +10,7 @@ Vietnamese Plate Dataset is a data set of number plates of vehicles in Vietnam. 
 License PLate Detection Dataset is a data set used to train the model to detect license plates in the image. The detected license plate will be used to read the characters in the plate in the next step.
 
 <div align='center'>
-    <img src="./doc/images/plate_dataset.png" width="80%">
+    <img src="./images/plate_dataset.png" width="80%">
 </div>
 
 The data set is provided in two formats, VOC / PASCAl and YOLO. The download link is in the table below:
@@ -28,7 +28,7 @@ Some videos of street scenes in Vietnam are used to check the performance  of th
 License Plate Recognition Dataset is a data set used to train algorithms to detect and classify characters in a license plate.
 
 <div align='center'>
-    <img src="./doc/images/ocr_dataset.png" width="80%">
+    <img src="./images/ocr_dataset.png" width="80%">
 </div>
 
 The data set is provided in two formats, VOC / PASCAl and YOLO. The download link is in the table below:

@@ -1,10 +1,10 @@
-<img src="./doc/images/githubtitle.png" width="100%">
+<img src="./images/githubtitle.png" width="100%">
 
 # Setting up your Jetson
 ## Introduction
 The [NVIDIA® Jetson Nano™ Developer Kit](https://developer.nvidia.com/embedded/jetson-nano-developer-kit) is a small AI computer for makers, learners, and developers. After following along with this brief guide, you’ll be ready to start building practical AI applications, cool AI robots, and more.
 <div align='center'>
-    <img src="./doc/images/intro-jetson.JPG" width="80%">
+    <img src="./images/intro-jetson.JPG" width="80%">
 </div>
 
 ## Write Image to the microSD Card 
@@ -17,13 +17,13 @@ To prepare your microSD card, you’ll need a computer with Internet connection 
     * Click “Format” to start formatting, and “Yes” on the warning dialog
 
 <div align='center'>
-    <img src="./doc/images/sdcard.png" width="40%">
+    <img src="./images/sdcard.png" width="40%">
 </div>
 
 3. Use [Etcher](https://www.balena.io/etcher) to write the Jetson Nano Developer Kit SD Card Image to your microSD card:
 
     <div align ='center'>
-        <img src="./doc/images/etcher01.png" width="60%">
+        <img src="./images/etcher01.png" width="60%">
     </div>
 
     * Click “Select image” and choose the zipped image file downloaded earlier.
@@ -31,14 +31,14 @@ To prepare your microSD card, you’ll need a computer with Internet connection 
     * Click “Select drive” and choose the correct device
 
     <div align ='center'>
-        <img src="./doc/images/etcher03.png" width="60%">
+        <img src="./images/etcher03.png" width="60%">
     </div>
 
     * Click “Flash!” It will take Etcher about 10 minutes to write and validate the image if your microSD card is connected via USB3
     * After Etcher finishes, Windows may let you know it doesn’t know how to read the SD Card. Just click Cancel and remove the microSD card.
 
     <div align ='center'>
-        <img src="./doc/images/etcher02.png" width="40%">
+        <img src="./images/etcher02.png" width="40%">
     </div>
 
 ## Boot your Jetson
@@ -46,13 +46,13 @@ To prepare your microSD card, you’ll need a computer with Internet connection 
 1. Insert the microSD card (with system image already written to it) into the slot on the underside of the Jetson Nano module.
 
 <div align='center'>
-    <img src="./doc/images/insertSDcard.png" width="70%">
+    <img src="./images/insertSDcard.png" width="70%">
 </div>
 
 2. Connect Jetson Nano with mouse, keyboard, ethernet cable and monitor (HDIM or Display port).
 
 <div align='center'>
-    <img src="./doc/images/setup_jetson.gif" width="70%">
+    <img src="./images/setup_jetson.gif" width="70%">
 </div>
 
 3. Connect a DC power supply to the J25 Power Jack (or Micro-USB power supply). The developer kit will power on automatically.
@@ -75,13 +75,13 @@ $ cmake ../
 > Jetson Inference comes with many pre-trained networks that can you can choose to have downloaded and installed. if you don't mind about it, just skip it by clicking **OK**.
 
 <div align='center'>
-    <img src="./doc/images/jetson-inference-pre-train-model.jpg" width="70%">
+    <img src="./images/jetson-inference-pre-train-model.jpg" width="70%">
 </div>
 
 > I recommend that you install Pytorch by ticking **'*'** into ***Pytorch v1.1.0 for Python 3.6***.
 
 <div align='center'>
-    <img src="./doc/images/jetson-inference-pytorch-installer.jpg" width="70%">
+    <img src="./images/jetson-inference-pytorch-installer.jpg" width="70%">
 </div>
 
 Complete the installation with the following command lines:

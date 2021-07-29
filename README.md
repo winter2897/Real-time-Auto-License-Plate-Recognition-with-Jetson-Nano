@@ -45,9 +45,9 @@ The project shares two sets of data for the license plate identification problem
 
 * [Vienamese Plate Dataset](./doc/dataset.md)
 
-* [License PLate Detection Dataset](https://drive.google.com/file/d/1u4RA1z0T4BvZVZhSo0qyzdrUlEn7ZRC4/view?usp=sharing "plate dataset")
+* [License PLate Detection Dataset](https://drive.google.com/file/d/1KLK-DWgT3VoQH4fcTxAt2eB3sm7DGWAf/view?usp=sharing "plate dataset")
 
-* [License Plate Recognition Dataset](https://drive.google.com/file/d/1YFMMBq0gyrFR9SFQj3JelZHZjN6TVKfR/view?usp=sharing "ocr dataset")
+* [License Plate Recognition Dataset](https://drive.google.com/file/d/1Mdtfn39Jt53u9Y81jhoM-7pdQT7B_dF6/view?usp=sharing "ocr dataset")
           
 ## License PLate Detection
 
